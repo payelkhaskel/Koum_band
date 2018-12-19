@@ -1,0 +1,7 @@
+{
+  "name": "Koum_band",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

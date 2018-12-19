@@ -1,0 +1,48 @@
+page-home {
+    // .body{
+    //     background-image: linear-gradient(#dfe610,#661a1a);
+    //     opacity: 0.9;
+    // }
+    .logo{
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+    #container{
+        margin:0 auto;
+        padding-top:40px;
+        text-align: center;
+        
+       // margin-left: auto;
+       // margin-right: auto;
+        display: block;
+        overflow: hidden;
+    }
+    ::placeholder{
+        color:white;
+    }
+    .no_back{
+        background-color: initial;
+    }
+    .icon{
+        font-size: 30px;
+        color:white;
+    }
+    .for_pass{
+        margin:0;
+        color:white;
+       
+    }
+    
+    .btn {
+        background-color: map-get($colors, light) ;
+        margin-top: 25px;
+    }
+    .dark-blue-text {
+        color: map-get($colors, darkBlue);
+    }
+    // .brick-red-text{
+    //     color: map-get($colors,darkBlue );
+    // }
+
+
+} 

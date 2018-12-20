@@ -3,46 +3,46 @@ page-home {
     //     background-image: linear-gradient(#dfe610,#661a1a);
     //     opacity: 0.9;
     // }
-    .logo{
-        margin-left: 120px;
-        margin-top: 40px;
-    }
-    #container{
+    
+
+    #container {
         margin:0 auto;
         padding-top:40px;
         text-align: center;
-        
-       // margin-left: auto;
-       // margin-right: auto;
         display: block;
         overflow: hidden;
     }
-    ::placeholder{
-        color:white;
-    }
-    .no_back{
-        background-color: initial;
-    }
-    .icon{
-        font-size: 30px;
-        color:white;
-    }
-    .for_pass{
-        margin:0;
-        color:white;
-       
+    
+    ::placeholder {
+        color: map-get($colors, light);
     }
     
+    .no_back {
+        background-color: initial;
+    }
+
+    .icon {
+        font-size: 30px;
+        color: map-get($colors, light) ;
+    }
+
+    
     .btn {
-        background-color: map-get($colors, light) ;
+        //background-color: map-get($colors, light) ;
         margin-top: 25px;
+        font-size: 16px;
+        font-weight: bold;
     }
-    .dark-blue-text {
-        color: map-get($colors, darkBlue);
+
+    .btn-login {
+        background-color: #a7be38;
+        color: #00a6e7;
     }
-    // .brick-red-text{
-    //     color: map-get($colors,darkBlue );
-    // }
+
+    .btn-signup{
+        color: map-get($colors, lightSky);;
+        color: #96ad26;
+    }
 
 
 } 

@@ -1,4 +1,35 @@
-.body{
-    background-image: linear-gradient(#1f3ff8,#55c0f1);
-    opacity: 0.8;
+.body {
+    background-color: #017dc6 !important;
+    //background-image: linear-gradient(#1f3ff8,#55c0f1);
+    //opacity: 0.8;
+}
+
+.logo {
+    display:block;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.text-white {   
+    color: map-get($colors, light);
+}
+
+.text-primary{
+    color: map-get($colors, lightSky);
+}
+.dark-blue-text {
+    color: map-get($colors, darkBlue);
+}
+
+.brick-red-text {
+    color: map-get($colors,darkBlue );
+}
+
+.go-back {
+    font-size: 25px;
+    color: map-get($colors, light) ;
+}
+
+.btn-confirm{
+    background-color: #a7be38 ;
 }

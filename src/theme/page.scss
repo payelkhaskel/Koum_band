@@ -4,10 +4,22 @@
     //opacity: 0.8;
 }
 
+#container {
+    margin:0 auto;
+    padding-top:40px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
 .logo {
     display:block;
     margin:auto;
     margin-top: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px;
+    width: 140px;
+    height: 122px;
 }
 
 .text-white {   
@@ -17,19 +29,26 @@
 .text-primary{
     color: map-get($colors, lightSky);
 }
-.dark-blue-text {
-    color: map-get($colors, darkBlue);
-}
+// .dark-blue-text {
+//     color: map-get($colors, darkBlue);
+// }
 
-.brick-red-text {
-    color: map-get($colors,darkBlue );
-}
+// .brick-red-text {
+//     color: map-get($colors,darkBlue );
+// }
 
 .go-back {
     font-size: 25px;
     color: map-get($colors, light) ;
 }
-
-.btn-confirm{
-    background-color: #a7be38 ;
+.btn {
+    //background-color: map-get($colors, light) ;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
 }
+
+.text-green {
+    color: map-get($colors, pistaGreen);
+}
+

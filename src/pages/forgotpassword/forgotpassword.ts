@@ -13,7 +13,7 @@ export class ForgotpasswordPage {
 
   openHomePage() {
     //console.log(this.navCtrl);
-    this.navCtrl.push(HomePage);
+    this.navCtrl.pop();
     
   }
 }

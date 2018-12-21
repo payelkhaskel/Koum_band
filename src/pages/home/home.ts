@@ -14,7 +14,7 @@ export class HomePage {
   
   openForgotPasswordPage() {
     // console.log('TEst');
-    this.navCtrl.setRoot('ForgotpasswordPage');
+    this.navCtrl.push(ForgotpasswordPage);
   }
 
 }

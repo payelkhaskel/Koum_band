@@ -4,7 +4,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 //import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
-// import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
+import { ConfirmotpPage }  from '../pages/confirmotp/confirmotp';
+import { ResetpasswordPage } from '../pages/resetpassword/resetpassword';
+import { RegisterPage } from '../pages/register/register';
+import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
 @Component({
   templateUrl: 'app.html'
 })

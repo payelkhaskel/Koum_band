@@ -1,20 +1,11 @@
 page-home {
     // .body{
     //     background-image: linear-gradient(#dfe610,#661a1a);
-    //     opacity: 0.9;
+        opacity: 0.8;
     // }
     
-
-    #container {
-        margin:0 auto;
-        padding-top:40px;
-        text-align: center;
-        display: block;
-        overflow: hidden;
-    }
-    
     ::placeholder {
-        color: map-get($colors, light);
+        color: white !important;
     }
     
     .no_back {
@@ -27,21 +18,19 @@ page-home {
     }
 
     
-    .btn {
-        //background-color: map-get($colors, light) ;
-        margin-top: 25px;
-        font-size: 16px;
+    
+
+    .btn-login {
+        background-color: #a7be39;
+        color: map-get($colors, lightSky);
+        margin-top: 20px;
         font-weight: bold;
     }
 
-    .btn-login {
-        background-color: #a7be38;
-        color: #00a6e7;
-    }
-
     .btn-signup{
-        color: map-get($colors, lightSky);;
-        color: #96ad26;
+        background-color: map-get($colors, lightSky);
+        color: #799101;
+        font-weight: bold;
     }
 
 

@@ -7,12 +7,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
-
+import { ConfirmotpPage }  from '../pages/confirmotp/confirmotp';
+import { ResetpasswordPage } from '../pages/resetpassword/resetpassword';
+import { RegisterPage } from '../pages/register/register';
 @NgModule({
   declarations: [
     MyApp,
    HomePage,
-   ForgotpasswordPage
+   ForgotpasswordPage,
+   ConfirmotpPage,
+   ResetpasswordPage,
+   RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +28,10 @@ import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
   entryComponents: [
     MyApp,
     HomePage,
-    ForgotpasswordPage
+    ForgotpasswordPage,
+    ConfirmotpPage,
+    ResetpasswordPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,
